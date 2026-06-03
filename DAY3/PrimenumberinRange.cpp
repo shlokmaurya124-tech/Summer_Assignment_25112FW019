@@ -26,7 +26,7 @@ int main()
         }
     
     if(isPrime)
-    { //
+    { 
         count++;
     }
 }
