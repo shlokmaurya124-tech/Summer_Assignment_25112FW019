@@ -8,8 +8,9 @@ int main()
     cin >> n;
     if( n == 0 ) {
         cout  << "Reverse number : " << 0 << endl;
-    while (n > 0)
-    {
+        return 0;
+    }
+    while (n > 0) {
         r = n % 10;
         rev = rev * 10 + r;
         n /= 10;
